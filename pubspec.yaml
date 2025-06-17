@@ -1,0 +1,45 @@
+name: easynotes_pro
+description: Aplicación avanzada de notas con funcionalidades premium
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # Security & Biometric
+  local_auth: ^2.1.6
+  shared_preferences: ^2.2.2
+  crypto: ^3.0.3
+
+  # Multimedia
+  image_picker: ^1.0.4
+  record: ^5.0.4
+  audioplayers: ^5.2.1
+
+  # UI
+  flutter_colorpicker: ^1.0.3
+
+  # Utils
+  intl: ^0.18.1
+  uuid: ^4.2.1
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
